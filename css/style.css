@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+    /*Navigationbar*/
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    overflow: hidden;
+    
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    /*padding; 20px: top and bottom
+        100px: right and left */
+    padding: 20px 100px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 2px rgb(0,0,0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.topnav a:visited {
+    color: white;
+}
+
+    /* Homepage text */
+
+.title {
+    text-align: left;
+    font-size: 26px;
+    background-color: aqua;
+    padding: 50px;
+    margin: 0;
+    color: rgb(73, 71, 58);
+}
+
+.title #quote1 {
+    position: relative;
+    margin-top: -30px;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.introtext #hej {
+    margin-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgb(73, 71, 58);
+}
+
+.introtext {
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large; 
+} 
+
+.faktatext {
+    width: 600px;
+    height: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+    /* Profilbild */
+
+.pfp img {
+    position: fixed;
+    top: 13%;
+    right: 0;
+    margin-right: 10px;
+    transform: translateY(-50%);
+}
+
+    /* Inspiration text */
+
+.insp-text #insp-rubrik {
+    margin-left: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: rgb(73, 71, 58);
+}
+
+.insp-text {
+    margin-top: 50px;
+    width: 600px;
+    height: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large; 
+}
+
+    /*Sidebar för länkarna*/
+
+#sidebar {
+    margin-top: 60px;
+    position: fixed;
+    top: 400px;
+    right: 0;
+    width: 300px;
+    height: 160px;
+    box-sizing: border-box;
+    border: 2px solid #554c4c;
+    padding: 10px;
+    margin-bottom: 2px;
+  }
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#sidebar li {
+    margin-bottom: 10px;
+}
+  
+#sidebar a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    box-shadow: 0 2px 2px rgb(0,0,0);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    background-color: darkgray;
+}
+
+#insp-links {
+    position: fixed;
+    top: 400px;
+    right: 20px;
+    border: 2px solid #444;
+    padding: 3px;
+    margin-top: auto;
+    background-color: lightseagreen;
+    color: rgb(0, 0, 0);
+
+}
+
+    /*Kontaktform*/
+
+#contact-form {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgray;
+}
+
+.contact-container {
+    border-radius: 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.social-media-links li:last-child {
+    margin-right: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    background-color: darkgray;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+  
+
